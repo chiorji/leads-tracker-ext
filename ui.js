@@ -18,6 +18,7 @@ class UI {
       const lead = {id: Date.now(), value: window.location.toString()}
       this.MyLeads.saveLead(lead);
       this.addItem(lead)
+      this.initRemoveItem()
   });
   }
 
